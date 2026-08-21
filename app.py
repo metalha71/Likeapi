@@ -8,12 +8,12 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 from telegram.request import HTTPXRequest
 
 # ============ CONFIGURATION ============
-API_URL = "URL"
+API_URL = "https://likeapi-snowy-phi.vercel.app"
 ENCODED_KEY = "QW51cmFn="
 API_KEY = base64.b64decode(ENCODED_KEY).decode()
 
-BOT_TOKEN = "Bot Toke "
-ADMIN_IDS = [Admin Id ]          # ← Replace with your actual admin ID(s)
+BOT_TOKEN = "8797603703:AAHfQB2wC7_khypEg7oH6eW_UPy5rukRYhw "
+ADMIN_IDS = [8797603703]          # ← Replace with your actual admin ID(s)
 
 # ============ DATA FILES ============
 DATA_FILES = {
