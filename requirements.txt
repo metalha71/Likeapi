@@ -1,7 +1,4 @@
-Flask[async]
 requests
+python-telegram-bot
+apscheduler
 aiohttp
-googleapis-common-protos
-pycryptodome
-protobuf
-Werkzeug
